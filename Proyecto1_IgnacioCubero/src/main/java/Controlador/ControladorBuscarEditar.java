@@ -1,19 +1,20 @@
 package Controlador;
 
-import Modelo.Celebracion;
-import Modelo.GestorCelebraciones;
-import Vista.FRM_BuscarEditar;
-import Vista.FRM_Editar;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
+
 import javax.swing.JTable;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+
+import Modelo.Celebracion;
+import Modelo.GestorCelebraciones;
+import Vista.FRM_BuscarEditar;
+import Vista.FRM_Editar;
 
 public class ControladorBuscarEditar implements ActionListener, DocumentListener {
 
@@ -55,7 +56,7 @@ public class ControladorBuscarEditar implements ActionListener, DocumentListener
             cargarDatosEnTabla();
         }
     }
-
+ //Hola
     @Override
     public void actionPerformed(ActionEvent e) 
     {
